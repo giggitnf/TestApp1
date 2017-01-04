@@ -20,7 +20,7 @@ public class NewFrame extends java.awt.Frame {
         initComponents();
         
         setLocation(200,200);
-        setSize(300, 300);
+        setSize(400, 300);
         
         
 
