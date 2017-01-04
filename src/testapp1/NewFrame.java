@@ -19,8 +19,9 @@ public class NewFrame extends java.awt.Frame {
     public NewFrame() {
         initComponents();
         
-        setLocation(200,200);
+        setLocation(0,0);
         setSize(400, 300);
+        
         
         
 
