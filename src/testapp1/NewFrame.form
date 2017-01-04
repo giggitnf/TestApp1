@@ -59,7 +59,7 @@
         </Component>
         <Component class="java.awt.Button" name="button1">
           <Properties>
-            <Property name="label" type="java.lang.String" value="button1"/>
+            <Property name="label" type="java.lang.String" value="Button"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">

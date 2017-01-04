@@ -41,7 +41,6 @@ public class NewFrame extends java.awt.Frame {
 
         setBackground(javax.swing.UIManager.getDefaults().getColor("InternalFrame.borderColor"));
         setFont(new java.awt.Font("Tahoma", 0, 12));
-        setLocationByPlatform(true);
         setLocationRelativeTo(this);
         setMinimumSize(new java.awt.Dimension(200, 200));
         setName("Test Application"); // NOI18N
@@ -56,8 +55,8 @@ public class NewFrame extends java.awt.Frame {
         jButton1.setBounds(20, 30, 100, 50);
         jLayeredPane1.add(jButton1, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
-        button1.setLabel("button1");
-        button1.setBounds(40, 110, 57, 24);
+        button1.setLabel("Button");
+        button1.setBounds(40, 110, 51, 24);
         jLayeredPane1.add(button1, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         add(jLayeredPane1, java.awt.BorderLayout.CENTER);
